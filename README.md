@@ -1,6 +1,6 @@
 # Real Estate Rental Prices Dashboard - Saudi Arabia
 
-Welcome to the **Real Estate Rental Prices Dashboard** project! This project focuses on analyzing and visualizing real estate rental prices across Saudi Arabia. The data was cleaned using **Excel**, and the interactive dashboard was built using **Power BI**. The dashboard consists of two pages: **Overview** and **Details**, each providing unique insights into the real estate market.
+Welcome to the **Real Estate Rental Prices Dashboard** project! This project focuses on analyzing and visualizing real estate rental prices across Saudi Arabia, sourced from [Kaggle](https://www.kaggle.com/datasets/mouathalmansour/real-estate-rental-prices). The data was cleaned using **Excel**, and the interactive dashboard was built using **Power BI**. The dashboard consists of two pages: **Overview** and **Details**, each providing unique insights into the real estate market.
 
 ---
 
@@ -14,18 +14,18 @@ The **Overview** page provides a high-level summary of key metrics and trends in
 #### **Key Performance Indicators (KPIs):**
 ![image](https://github.com/user-attachments/assets/5f910178-49b2-42fa-a078-34844520ef3b)
 
-- **Average Nightly Price:** 622 SAR
+- **Average Price per Night:** 622 SAR
 - **Average Rate:** 9.17
 - **Total Raters:** 362K
 - **Total Real Estates:** 17K
 - **Average Area:** 564.24 m²
 
 #### **Charts and Visualizations:**
-1. **Average Nightly Price by Category (Bar Chart):**
+1. **Average Price per Night by Category (Bar Chart):**
 
 ![image](https://github.com/user-attachments/assets/82eb7b68-4b9c-4460-99bf-d370e292131a)
 
-   - The category "اسطبل" has the highest average nightly price at **4,000 SAR**, followed by "قبة" at **1,900 SAR**.
+   - The category "اسطبل" has the highest average price per night at **4,000 SAR**, followed by "قبة" at **1,900 SAR**.
 
 3. **Raters Distribution on Rate (Column Chart):**
 
@@ -37,7 +37,7 @@ The **Overview** page provides a high-level summary of key metrics and trends in
 
 ![image](https://github.com/user-attachments/assets/9ce16c99-a027-4360-8240-48912b310c2a)
 
-   - The category "شقة" (Apartment) has the highest number of real estate, totalling **6,904**.
+   - The category "شقة" (Apartment) has the highest number of real estate, totaling **6,904**.
 
 7. **Most Common Areas by Number of Real Estates (Column Chart):**
 
@@ -55,36 +55,36 @@ The **Details** page dives deeper into the data, providing granular insights and
 #### **Key Performance Indicators (KPIs):**
 ![image](https://github.com/user-attachments/assets/ce60a1ed-397d-4aae-a5ef-a8c8625e8121)
 
-- **Minimum Nightly Price:** 50 SAR
-- **Maximum Nightly Price:** 330k SAR
+- **Minimum Price per Night:** 50 SAR
+- **Maximum Price per Night:** 330k SAR
 - **Minimum Area:** 10 m²
 - **Maximum Area:** 110k m²
 - **Number of Real Estates:** 17K
 
 #### **Charts and Visualizations:**
-1. **Average Nightly Price by Rate (Line Chart):**
+1. **Average Price per Night by Rate (Line Chart):**
 
 ![image](https://github.com/user-attachments/assets/4809892e-b6f0-4d12-a0cd-e9f83c3bb8ce)
 
-   - The highest average nightly price is associated with a **rating of 2.4**.
+   - The highest average price per night is associated with a **rating of 2.4**.
 
-3. **Average Nightly Price by Area (Line Chart):**
+3. **Average Price per Night by Area (Line Chart):**
 
 ![image](https://github.com/user-attachments/assets/9f9f8af1-5561-4cf2-a64d-c91f8fe36127)
 
-   - This chart shows the relationship between the area of real estate and their average nightly price.
+   - This chart shows the relationship between the area of real estate and their average price per night.
 
-5. **Average Nightly Price by City (Bar Chart):**
+5. **Average Price per Night by City (Bar Chart):**
 
 ![image](https://github.com/user-attachments/assets/db4e1601-30e4-4e02-85e5-8070466c2b34)
 
-   - The city **الرياض (Riyadh)** has the highest average nightly price at **849 SAR**.
+   - The city **الرياض (Riyadh)** has the highest average price per night at **849 SAR**.
 
-7. **Average Nightly Price by Neighbourhood (Bar Chart):**
+7. **Average Price per Night by Neighbourhood (Bar Chart):**
 
 ![image](https://github.com/user-attachments/assets/2a3bfc5d-f665-40a2-aab4-88af8186d484)
 
-   - The neighbourhoods **الوساح**, **التسامح**, and **مخطط الشريف منصور** have the highest average nightly prices, reaching **5,000 SAR**.
+   - The neighbourhoods **الوساح**, **التسامح**, and **مخطط الشريف منصور** have the highest average price per night, reaching **5,000 SAR**.
 
 9. **Data Table:**
 
@@ -92,7 +92,7 @@ The **Details** page dives deeper into the data, providing granular insights and
 
    - A detailed table containing information about each real estate, including:
      - Name of Real Estate
-     - Nightly Price
+     - Price per Night
      - Rate
      - Number of Raters
      - Area
@@ -104,7 +104,7 @@ The **Details** page dives deeper into the data, providing granular insights and
 ![image](https://github.com/user-attachments/assets/5c56fd78-9610-4b20-bfa1-3859e311019f)
 
    - Interactive filters allow users to refine the data based on:
-     - Nightly Price
+     - Price per Night
      - City
      - Neighbourhood
      - Area
@@ -118,7 +118,7 @@ The **Details** page dives deeper into the data, providing granular insights and
 
 2. **Details Page:**
    - Dive deeper into the data by applying filters using the slicers.
-   - Analyze specific trends, such as the relationship between ratings, areas, and nightly prices.
+   - Analyze specific trends, such as the relationship between ratings, areas, and price per night.
    - Use the data table to view detailed information about individual real estate.
 
 ---
@@ -132,14 +132,14 @@ The **Details** page dives deeper into the data, providing granular insights and
 ## **Key Insights**
 - The real estate market in Saudi Arabia is diverse, with significant variations in nightly prices based on category, city, and neighbourhood.
 - Apartments ("شقة") dominate the market in terms of the number of available real estate.
-- High-end properties, such as those in the "اسطبل" category or specific neighbourhoods like "الوساح", command significantly higher nightly prices.
+- High-end properties, such as those in the "اسطبل" category or specific neighbourhoods like "الوساح", command significantly higher price per night.
 
 ---
 
-## **Future Enhancements**
-- Incorporate additional data sources, such as historical price trends or occupancy rates.
-- Add more interactive features, such as drill-down capabilities or predictive analytics.
-- Expand the dataset to include more regions or property types.
+### Interactive Dashboard:
+  You can explore the interactive dashboard using the following link: [Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiYTczOGUwMTUtZDI3OS00NmZjLWFlNDktNDE5YmY2MWI0OTcwIiwidCI6IjhmY2Y0Y2Q5LTJmZTQtNDU3MS04NDMxLWIxN2MzZjI5ZWZiMyJ9)
+  
+  This dashboard provides insightful visualizations and detailed analytics for the dataset. Feel free to interact with it to explore various metrics and gain deeper insights.
 
 ---
 
